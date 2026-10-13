@@ -1,0 +1,1312 @@
+{
+  "factor_count": 260,
+  "acceptance_basis_counts": {
+    "HISTORICAL_NUMERIC_PASS": 152,
+    "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE": 17,
+    "USER_NEAR_THRESHOLD_UNIFORM_RULE": 6,
+    "USER_LOGIC_NO_REFERENCE": 69,
+    "USER_LOGIC_REFERENCE_NOT_CHECKED": 16
+  },
+  "factors": [
+    {
+      "factor_id": "Amihud_ILLIQ120",
+      "factor_name": "Amihud非流动性_120d",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "Amihud_ILLIQ20",
+      "factor_name": "Amihud非流动性_20d",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "Amihud_ILLIQ240",
+      "factor_name": "Amihud非流动性_240d",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "Amihud_ILLIQ60",
+      "factor_name": "Amihud非流动性_60d",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "BP",
+      "factor_name": "BP",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "CFPTTM",
+      "factor_name": "CFPTTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "CFPTTM_3y_quantile",
+      "factor_name": "CFPTTM三年分位数",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "EPS_Delta_Vol",
+      "factor_name": "过去8个季度EPS增速的标准差",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "EPTTM",
+      "factor_name": "EPTTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "EPTTM_3y_quantile",
+      "factor_name": "EPTTM三年分位数",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "NET_PROFIT_AFTER_DED_NR_LP_TTM",
+      "factor_name": "扣非净利润TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "NET_PROFIT_EXCL_MIN_INT_INC_TTM",
+      "factor_name": "归母净利润TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "NET_PROFIT_INCL_MIN_INT_INC_TTM",
+      "factor_name": "净利润TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "PB",
+      "factor_name": "市净率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "PB_3y_quantile",
+      "factor_name": "PB三年分位数",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "PCFTTM",
+      "factor_name": "市现率TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "PETTM",
+      "factor_name": "市盈率TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "PSTTM",
+      "factor_name": "市销率TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "ROE",
+      "factor_name": "ROE累计",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "Ret120_20_RemoveUpLimit",
+      "factor_name": "6个月去涨停动量",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "Ret240_20_RemoveUpLimit",
+      "factor_name": "1年去涨停动量",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "Ret60_20_RemoveUpLimit",
+      "factor_name": "3个月去涨停动量",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "SPTTM",
+      "factor_name": "SPTTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "ar2or_ttm",
+      "factor_name": "预收营收比TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "ar2or_ttm_diff1",
+      "factor_name": "预收营收比TTM环比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "assets_turnoverTTM_chg",
+      "factor_name": "总资产周转率TTM变动",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "assets_turnover_ttm",
+      "factor_name": "总资产周转率TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cal_div_rate_ttm_pretax",
+      "factor_name": "税前股息率TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cal_div_ttm_pretax",
+      "factor_name": "税前现金分红总额TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "capex2np_10y",
+      "factor_name": "10年累计资本开支比净利润",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "capex_da_ratio_ttm",
+      "factor_name": "资本扩张强度TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfo2rev_ttm",
+      "factor_name": "现金流营业收入比TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfo2rev_ttm_diff",
+      "factor_name": "经营现金流营收比TTM的环比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfo2tb_ttm",
+      "factor_name": "经营现金流负债比TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfo_cv",
+      "factor_name": "经营现金流稳定性因子",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfo_cv_pit",
+      "factor_name": "经营现金流稳定性因子PIT",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfo_ttm_yoy",
+      "factor_name": "经营性现金流TTM同比",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfo_yoy",
+      "factor_name": "累计经营性现金流同比",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "cfoe_qua",
+      "factor_name": "单季度净资产现金流回报率",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "cfoe_qua_delta",
+      "factor_name": "单季度净资产现金流回报率同比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfoe_ttm",
+      "factor_name": "净资产现金流回报率TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfoe_ttm_diff1",
+      "factor_name": "净资产现金流回报率TTM同比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfoe_ttm_diff4",
+      "factor_name": "净资产现金流回报率TTM环比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfooe_qua",
+      "factor_name": "单季度净资产经营现金流回报率",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "cfooe_qua_delta",
+      "factor_name": "单季度净资产经营现金流回报率同比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfooe_ttm",
+      "factor_name": "净资产经营现金流回报率TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfooe_ttm_diff1",
+      "factor_name": "净资产经营现金流回报率TTM同比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfooe_ttm_diff4",
+      "factor_name": "净资产经营现金流回报率TTM环比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfottm2curliab",
+      "factor_name": "现金流动负债比率ttm",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "cfottm2curliab_chg",
+      "factor_name": "现金流动负债率ttm变动",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "ckt_120d",
+      "factor_name": "120日协峰度",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "ckt_down_120d",
+      "factor_name": "120日下行协峰度",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "ckt_up_120d",
+      "factor_name": "120日上行协峰度",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "csk_120d",
+      "factor_name": "120日协偏度",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "csk_down_120d",
+      "factor_name": "120日下行协偏度",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "csk_up_120d",
+      "factor_name": "120日上行协偏度",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "da2gross_ttm",
+      "factor_name": "折旧摊销比毛利TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "da2rev_ttm",
+      "factor_name": "折旧摊销比营收TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "delta_roaq",
+      "factor_name": "单季度ROA同比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "delta_roeq",
+      "factor_name": "单季度ROE同比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "divp_ttm_wind",
+      "factor_name": "股息率TTM(wind)",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "dol_ttm2",
+      "factor_name": "经营杠杆率TTM2",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "ebit2rev_ttm",
+      "factor_name": "EBIT比营收TTM",
+      "acceptance_basis": "USER_NEAR_THRESHOLD_UNIFORM_RULE"
+    },
+    {
+      "factor_id": "ebit_ttm",
+      "factor_name": "EBIT_TTM",
+      "acceptance_basis": "USER_NEAR_THRESHOLD_UNIFORM_RULE"
+    },
+    {
+      "factor_id": "ebitda2rev_ttm",
+      "factor_name": "EBITDA比营收TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "ebitda_ttm",
+      "factor_name": "EBITDA_TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "epq",
+      "factor_name": "单季度EP",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "ev",
+      "factor_name": "企业价值",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "factor_eaa",
+      "factor_name": "eps加速增长eaa",
+      "acceptance_basis": "USER_NEAR_THRESHOLD_UNIFORM_RULE"
+    },
+    {
+      "factor_id": "factor_eav",
+      "factor_name": "eps加速增长eav",
+      "acceptance_basis": "USER_NEAR_THRESHOLD_UNIFORM_RULE"
+    },
+    {
+      "factor_id": "factor_egv",
+      "factor_name": "eps增长egv",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "factor_np_growth_rel",
+      "factor_name": "净利润相对增长",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "factor_op_roa",
+      "factor_name": "资产报酬率TTM / 资产报酬率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "factor_or_growth_rel",
+      "factor_name": "营收相对增长",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "factor_roe_deducted",
+      "factor_name": "扣非ROE_TTM / 扣非ROE",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "fcff_cv",
+      "factor_name": "自由现金流稳定性因子",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "fcff_ttm",
+      "factor_name": "自由现金流",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "fcff_yoy",
+      "factor_name": "自由现金流同比增长率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "fcffoe_qua",
+      "factor_name": "单季度净资产自由现金流回报率",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "fcffoe_qua_delta",
+      "factor_name": "单季度净资产自由现金流回报率同比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "fcffoe_ttm",
+      "factor_name": "净资产自由现金流回报率TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "fcffoe_ttm_diff1",
+      "factor_name": "净资产自由现金流回报率TTM同比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "fcffoe_ttm_diff4",
+      "factor_name": "净资产自由现金流回报率TTM环比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "fcffp_ttm",
+      "factor_name": "FCFFP_TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "finexp_ratio_ttm",
+      "factor_name": "财务费用率TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "goodwill2na",
+      "factor_name": "商誉比净资产",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "goodwill2ta",
+      "factor_name": "商誉比总资产",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "gpmq_diff1",
+      "factor_name": "单季度毛利率的环比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "gpmq_diff4",
+      "factor_name": "单季度毛利率的同比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "gross_margin_ttm",
+      "factor_name": "毛利率TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "gross_margin_ttm_chg",
+      "factor_name": "毛利率TTM变动",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "high250",
+      "factor_name": "52周最高价距离动量",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "ideal_reversal",
+      "factor_name": "理想反转",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "ideal_swing",
+      "factor_name": "理想振幅",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "intraday_amp_vol_1m",
+      "factor_name": "1个月日内振幅波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "intraday_amp_vol_1y",
+      "factor_name": "1年日内振幅波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "intraday_amp_vol_3m",
+      "factor_name": "3个月日内振幅波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "intraday_amp_vol_6m",
+      "factor_name": "6个月日内振幅波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "inventory_turnover_ttm",
+      "factor_name": "存货周转率TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "liab2assets",
+      "factor_name": "资产负债率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "liab_to_assets_chg",
+      "factor_name": "资产负债率变动",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "mom120_20",
+      "factor_name": "经典动量120d",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "mom240_20",
+      "factor_name": "经典动量240d",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "mom60_20",
+      "factor_name": "经典动量60d",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "net_wc",
+      "factor_name": "净营运资本",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "nol",
+      "factor_name": "净经营负债因子1",
+      "acceptance_basis": "USER_NEAR_THRESHOLD_UNIFORM_RULE"
+    },
+    {
+      "factor_id": "np_per_share",
+      "factor_name": "每股净利润",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "np_yoy",
+      "factor_name": "净利润累计同比",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "npm_diff1",
+      "factor_name": "单季度净利率的环比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "npm_diff4",
+      "factor_name": "单季度净利率的同比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "npq_yoy_diff1",
+      "factor_name": "单季度净利润增速的环比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "npq_yoy_diff4",
+      "factor_name": "单季度净利润增速的同比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "npqyoy",
+      "factor_name": "单季度归母净利润同比增速",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "npttm_chg",
+      "factor_name": "TTM业绩增速",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "npttm_qoq",
+      "factor_name": "归母净利润TTM环比增速",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "npttm_yoy",
+      "factor_name": "净利润TTM同比",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "npyoy",
+      "factor_name": "累计归母净利润同比增速",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "nwc2rev_ttm",
+      "factor_name": "净营运资本比营收TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "op2or_ttm_chg",
+      "factor_name": "营业利润率变动",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "opex2ta_ttm",
+      "factor_name": "运营支出比总资产TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "opex_ttm",
+      "factor_name": "运营支出TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "quick_ratio",
+      "factor_name": "速动比率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "receivable_turnover_ttm",
+      "factor_name": "应收账款周转率TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "res_vol_120d",
+      "factor_name": "120日残差波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "res_vol_20d",
+      "factor_name": "20日残差波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "res_vol_240d",
+      "factor_name": "240日残差波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "res_vol_5y",
+      "factor_name": "5年残差波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "res_vol_60d",
+      "factor_name": "60日残差波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "resvol120_capm",
+      "factor_name": "120日CAPM特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_down_capm",
+      "factor_name": "120日CAPM下行特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_down_ff3",
+      "factor_name": "120日FF3下行特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_ff3",
+      "factor_name": "120日FF3特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_j_capm",
+      "factor_name": "120日CAPM跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_j_ff3",
+      "factor_name": "120日FF3跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_jdown_capm",
+      "factor_name": "120日CAPM下行跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_jdown_ff3",
+      "factor_name": "120日FF3下行跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_jdown_ratio_ff3",
+      "factor_name": "120日FF3下行跳跃占比",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_jup_capm",
+      "factor_name": "120日CAPM上行跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_jup_ff3",
+      "factor_name": "120日FF3上行跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_jup_ratio_ff3",
+      "factor_name": "120日FF3上行跳跃占比",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_nj_capm",
+      "factor_name": "120日CAPM扩散特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_nj_ff3",
+      "factor_name": "120日FF3扩散特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_up_capm",
+      "factor_name": "120日CAPM上行特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol120_up_ff3",
+      "factor_name": "120日FF3上行特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_capm",
+      "factor_name": "240日CAPM特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_down_capm",
+      "factor_name": "240日CAPM下行特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_down_ff3",
+      "factor_name": "240日FF3下行特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_ff3",
+      "factor_name": "240日FF3特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_j_capm",
+      "factor_name": "240日CAPM跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_j_ff3",
+      "factor_name": "240日FF3跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_jdown_capm",
+      "factor_name": "240日CAPM下行跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_jdown_ff3",
+      "factor_name": "240日FF3下行跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_jdown_ratio_ff3",
+      "factor_name": "240日FF3下行跳跃占比",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_jup_capm",
+      "factor_name": "240日CAPM上行跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_jup_ff3",
+      "factor_name": "240日FF3上行跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_jup_ratio_ff3",
+      "factor_name": "240日FF3上行跳跃占比",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_nj_capm",
+      "factor_name": "240日CAPM扩散特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_nj_ff3",
+      "factor_name": "240日FF3扩散特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_up_capm",
+      "factor_name": "240日CAPM上行特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol240_up_ff3",
+      "factor_name": "240日FF3上行特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_capm",
+      "factor_name": "60日CAPM特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_down_capm",
+      "factor_name": "60日CAPM下行特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_down_ff3",
+      "factor_name": "60日FF3下行特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_ff3",
+      "factor_name": "60日FF3特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_ff3_amp",
+      "factor_name": "显著日内振幅特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_ff3_lir",
+      "factor_name": "显著大单净流入率特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_ff3_tvr",
+      "factor_name": "显著换手率特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_j_ff3",
+      "factor_name": "60日FF3跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_jdown_capm",
+      "factor_name": "60日CAPM下行跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_jdown_ff3",
+      "factor_name": "60日FF3下行跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_jdown_ratio_ff3",
+      "factor_name": "60日FF3下行跳跃占比",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_jup_capm",
+      "factor_name": "60日CAPM上行跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_jup_ff3",
+      "factor_name": "60日FF3上行跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_jup_ratio_ff3",
+      "factor_name": "60日FF3上行跳跃占比",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_nj_capm",
+      "factor_name": "60日CAPM扩散特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_nj_ff3",
+      "factor_name": "60日FF3扩散特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_up_capm",
+      "factor_name": "60日CAPM上行特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol60_up_ff3",
+      "factor_name": "60日FF3上行特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "resvol_j_capm",
+      "factor_name": "60日CAPM跳跃特质波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "rev_growth_com_2y",
+      "factor_name": "最近两年营收复合增长率",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "rev_growth_com_3y",
+      "factor_name": "最近三年营收复合增长率",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "reverse20",
+      "factor_name": "20日反转",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "revq_yoy_diff1",
+      "factor_name": "单季度营收增速的环比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "revq_yoy_diff4",
+      "factor_name": "单季度营收增速的同比变化",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "roe_ttm",
+      "factor_name": "净资产收益率TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "roeq_mean_12q",
+      "factor_name": "过去12个季度ROE均值",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "roeq_mean_3y",
+      "factor_name": "过去三年单季度ROE均值",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "roeq_mean_div_std_3y",
+      "factor_name": "过去三年单季度ROE均值比标准差",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "roeq_mean_sub_std_3y",
+      "factor_name": "过去三年单季度ROE均值减标准差",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "roeq_std_12q",
+      "factor_name": "过去12个季度ROE标准差",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "roeq_std_3y",
+      "factor_name": "过去三年单季度ROE标准差",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "salettm_yoy",
+      "factor_name": "主营业务收入TTM同比",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "sfli",
+      "factor_name": "短贷长投因子1",
+      "acceptance_basis": "USER_NEAR_THRESHOLD_UNIFORM_RULE"
+    },
+    {
+      "factor_id": "sucfo",
+      "factor_name": "标准化预期外经营现金流",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "sur_cf",
+      "factor_name": "标准化预期外销货现金流入",
+      "acceptance_basis": "HISTORICAL_PIT_DIFFERENCE_ACCEPTANCE"
+    },
+    {
+      "factor_id": "tot_assets_cash_recovery",
+      "factor_name": "全部资产现金回收率TTM",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "turnover120",
+      "factor_name": "六个月换手率均值",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "turnover20",
+      "factor_name": "一个月换手率均值",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "turnover240",
+      "factor_name": "一年换手率均值",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "turnover60",
+      "factor_name": "三个月换手率均值",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "turnoverChg_return_corr1",
+      "factor_name": "换手率变动与收益率相关性因子(量价同步)",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "turnoverChg_return_corr2",
+      "factor_name": "换手率变动与收益率相关性因子(价领先一期)",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "turnover_price_corr",
+      "factor_name": "换手率与价格相关性因子",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "turnover_return_corr1",
+      "factor_name": "换手率与收益率相关性因子(量领先一期)",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "up_per_share",
+      "factor_name": "每股未分配利润",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "up_shadow_vol_1m",
+      "factor_name": "1个月上影线波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "up_shadow_vol_1y",
+      "factor_name": "1年上影线波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "up_shadow_vol_3m",
+      "factor_name": "3个月上影线波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "up_shadow_vol_6m",
+      "factor_name": "6个月上影线波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "vol120_down",
+      "factor_name": "120日下行波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol120_j",
+      "factor_name": "120日跳跃波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol120_jdown",
+      "factor_name": "120日下行跳跃波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol120_jup",
+      "factor_name": "120日上行跳跃波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol120_nj",
+      "factor_name": "120日扩散波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol120_up",
+      "factor_name": "120日上行波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol240_down",
+      "factor_name": "240日下行波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol240_j",
+      "factor_name": "240日跳跃波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol240_jdown",
+      "factor_name": "240日下行跳跃波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol240_jup",
+      "factor_name": "240日上行跳跃波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol240_nj",
+      "factor_name": "240日扩散波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol240_up",
+      "factor_name": "240日上行波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol60_down",
+      "factor_name": "60日下行波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol60_j",
+      "factor_name": "60日跳跃波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol60_jdown",
+      "factor_name": "60日下行跳跃波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol60_jup",
+      "factor_name": "60日上行跳跃波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol60_nj",
+      "factor_name": "60日扩散波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol60_up",
+      "factor_name": "60日上行波动率",
+      "acceptance_basis": "USER_LOGIC_NO_REFERENCE"
+    },
+    {
+      "factor_id": "vol_120d",
+      "factor_name": "120日波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "vol_240d",
+      "factor_name": "240日波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "vol_5y",
+      "factor_name": "5年波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "vol_60d",
+      "factor_name": "60日波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "vol_90d",
+      "factor_name": "90日波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "volume_price_corr_1m",
+      "factor_name": "1个月量价相关性",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "volume_price_corr_1y",
+      "factor_name": "1年量价相关性",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "volume_price_corr_3m",
+      "factor_name": "3个月量价相关性",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "volume_price_corr_6m",
+      "factor_name": "6个月量价相关性",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "w_down_shadow_vol_1m",
+      "factor_name": "1个月威廉下影线波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "w_down_shadow_vol_1y",
+      "factor_name": "1年威廉下影线波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "w_down_shadow_vol_3m",
+      "factor_name": "3个月威廉下影线波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "w_down_shadow_vol_6m",
+      "factor_name": "6个月威廉下影线波动率",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "weighted_skew_1m",
+      "factor_name": "1个月加权偏度",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "weighted_skew_1y",
+      "factor_name": "1年加权偏度",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "weighted_skew_3m",
+      "factor_name": "3个月加权偏度",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "weighted_skew_6m",
+      "factor_name": "6个月加权偏度",
+      "acceptance_basis": "HISTORICAL_NUMERIC_PASS"
+    },
+    {
+      "factor_id": "delta_roe_rg",
+      "factor_name": "DeltaROE高斯秩",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "epttm_rg_zscore",
+      "factor_name": "EPTTM高斯秩滚动zscore",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "ebit2interest_ttm",
+      "factor_name": "已获利息倍数TTM",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "dol_ttm1",
+      "factor_name": "经营杠杆率TTM1",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "sur",
+      "factor_name": "标准化预期外营业收入",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "NET_PROFIT_INCL_MIN_INT_INC_QUA",
+      "factor_name": "单季度净利润",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "NET_PROFIT_EXCL_MIN_INT_INC_QUA",
+      "factor_name": "单季度归母净利润",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "net_margin_ttm",
+      "factor_name": "净利率TTM",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "profit_quality",
+      "factor_name": "盈利质量",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "acc_profit_qua",
+      "factor_name": "单季度应计利润",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "acc_profit_ttm",
+      "factor_name": "应计利润TTM",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "roeq_rg",
+      "factor_name": "单季度ROE高斯秩",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "bp_rg",
+      "factor_name": "BP高斯秩",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "pb_rg",
+      "factor_name": "PB高斯秩",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "epttm_rg",
+      "factor_name": "EPTTM高斯秩",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    },
+    {
+      "factor_id": "pettm_rg",
+      "factor_name": "PETTM高斯秩",
+      "acceptance_basis": "USER_LOGIC_REFERENCE_NOT_CHECKED"
+    }
+  ]
+}

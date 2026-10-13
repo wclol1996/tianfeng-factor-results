@@ -1,0 +1,41 @@
+{
+  "method": {
+    "horizons": [
+      1,
+      5,
+      10,
+      20,
+      30
+    ],
+    "min_n": 50,
+    "std_ddof": 1,
+    "annualized": false,
+    "return": "close(t+h)/close(t)-1; full exchange calendar",
+    "ranking": "signed RankICIR descending; absolute value optional",
+    "frequency": "daily cross-sectional IC series; no annualization"
+  },
+  "market": {
+    "horizons": [
+      1,
+      5,
+      10,
+      20,
+      30
+    ],
+    "return_definition": "backward_close(t+h)/backward_close(t)-1",
+    "return_timing": "close-to-close research labels, not executable portfolio PnL",
+    "calendar": "full market sessions; shift before masking; no per-security dropna or forward fill",
+    "st_policy": "exact-date HistoricalST; unknown excluded; input rolling history preserved",
+    "st_covered_start": "2011-01-04",
+    "st_covered_end": "2026-09-08",
+    "universe": "SH/SZ; list age >=365 calendar days; date before delist; close>0; volume>0; non-ST",
+    "actual_start": "2010-01-04",
+    "actual_end": "2026-09-08",
+    "pit_limitations": [
+      "2010 ST is uncertified and excluded",
+      "Historical source manifests remain DATA_QUALITY_REVIEW_REQUIRED/human_approved=false; this read-only IC research does not alter admission state",
+      "Price endpoints share one backward-adjusted vendor snapshot; factor financial PIT provenance is audited separately"
+    ]
+  },
+  "display_series_precision": "7 decimal digits, consistent with original dashboard; summary CSV retains calculation precision"
+}
